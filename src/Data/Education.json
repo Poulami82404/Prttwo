@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "coursename":"Java Full Stack Developer",
+        "courseyear":"2024",
+        "institute":"Tata Strive,Hyderabad",
+        "grade":"Completed"
+    },
+    {
+        "id":2,
+        "coursename":"B.Tech in Electronics and Communication Engineering",
+        "courseyear":"2022",
+        "institute":"Maulana Abdul Kalam Azad University  of Technology",
+        "grade":"68% Percentage"
+    },
+    {
+        "id":3,
+        "coursename":"Higher Secondary",
+        "courseyear":"2018",
+        "institute":"Central Model School",
+        "grade":"66% Percentage"
+    },
+    {
+        "id":4,
+        "coursename":"SSC",
+        "courseyear":"2016",
+        "institute":"K.E.Carmel School",
+        "grade":"86% Percentage"
+    }
+]
