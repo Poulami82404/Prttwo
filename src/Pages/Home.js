@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import Linkedinicon from "../assets/img/socialicons/linkedin.png";
 import Instagramicon from "../assets/img/socialicons/instagram.png";
 import Githubicon from "../assets/img/socialicons/github.png";
+
 // import MailIcon from "../assets/img/socialicons/email.png";
 
 const Home = () => {
@@ -41,7 +42,7 @@ const Home = () => {
                 <br></br>
                 
                 <a
-                  href="https://github.com/poojagarva28"
+                  href="https://github.com/Poulami82404"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -84,7 +85,11 @@ const Home = () => {
             <div className="rightcontent" data-aos="fade-right">
               <h1>Poulami Mondal</h1>
               <h2>Full Stack Developer</h2>
-              <br />
+              <p><b> Passionate front-end developer with a flair for creating captivating user experiences. 
+              Proficient in HTML, CSS, and JavaScript, and React Js in frontend and  Spring Boot in backend 
+              with a keen eye for design and a commitment to stayingupdated with the latest web technologies. 
+              Dedicated to crafting clean, responsive, and accessible interfaces that delight users.</b>
+              </p>
               <div className="row">
                 <div className="col-sm-4 col-6">
                   <a href={Pdf} target="_blank" rel="noreferrer">
@@ -105,8 +110,33 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+
+
+      
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   );
 };
 
+
+
+
+
+
 export default Home;
+
+

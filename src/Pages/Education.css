@@ -1,26 +1,55 @@
-/* #educationn {height: 100vh;display: flex;justify-content: center;align-items: center;  min-height: 100vh;} */
-#educationn {
+ #educationn {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
   padding-top: 5%;
+  position: relative;
+  background-size: 100% auto;
+  background-position: top left;
+  background-repeat: repeat-y;
+  padding-top: 150px;
+  padding-bottom: 350px; /* Increased bottom padding to make space for the larger image */
+} 
+
+#educationn::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0; /* Position the background image at the extreme right */
+  transform: translateY(-50%);
+  width: 35%; /* Adjusted to cover the entire width */
+  height: 90%; /* Adjusted to cover the entire height */
+  background-image: url("../assets/img/eductn.avif");
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-position: right; /* Position the background image at the right */
+  background-repeat: repeat-y; /* Repeat the background image vertically */
+  z-index: -1;  
 }
+
 #educationn h5 {
   margin-bottom: 10px;
   line-height: 22px;
 }
+
 #educationn .educationnblock {
   border-bottom: 1px solid #000;
   margin-bottom: 10px;
   padding: 20px 0px;
 }
+
 #educationn .educationnblock:last-child {
   border-bottom: 0px;
 }
+
 #educationn .tab-pane {
   padding: 0px;
   padding-top: 50px;
 }
+
 #educationn .nav-tabs {
   border: 0px;
 }
+
 #educationn .nav-tabs .nav-link {
   border: 0px;
   background-color: #fff;
@@ -32,21 +61,12 @@
   font-size: 18px;
   font-weight: 600;
 }
+
 #educationn .nav-tabs .nav-link.active {
   background-color: #000;
   color: #fff;
   border-radius: 0px;
 }
-/* #educationn .nav-tabs .nav-link.active::after{content: '';
-    display: block;
-    position: absolute;
-    top: 10px;
-    left: 100%;
-    width: 0;
-    height: 0;
-    border-color: transparent transparent transparent red;
-    border-style: solid;
-    border-width: 10px;} */
 
 @media (max-width: 767px) {
   #educationn .nav-tabs .nav-link {

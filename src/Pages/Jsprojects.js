@@ -162,7 +162,8 @@ const Jsprojects = () => {
             <p>
             Tools Ued : HTML and CSS
             <br></br>
-             Basic Project using HTML and  CSS
+             It is developed using Basic Hooks of React 
+             Like Use State , Use Effect , Ure Ref.
             </p>
             <br />
             <div className="js">

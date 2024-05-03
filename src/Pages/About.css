@@ -1,5 +1,11 @@
 #about {
   height: 100vh;
+  background-image: url("../assets/img/bgtwo.jpeg"); /* Replace with the path to your image */
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  background-size: 80% auto ;
 }
 #about .aboutcontent {
   border: 2px dashed #000;

@@ -21,19 +21,19 @@ function App() {
     <div>
       <Nav />
       <Learn />
-      {/* <Home/>
+      {/* <Home
       <About />
       <Services/>s
       <Education/>
       <Work/>
       <Contact/> */}
       <Routes>
-        <Route exact="true" path="/myportfolio" element={<Home />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/education" element={<Education />}></Route>
-        <Route path="/projects" element={<Jsprojects />}></Route>       
-        <Route path="/contact" element={<Contact />}></Route>
-        <Route path="*" element={<PageNotFound />}></Route>
+        <Route exact="true" path="/myportfolio" element={<Home />}/>
+        <Route path="/about" element={<About />}/>
+        <Route path="/education" element={<Education />}/>
+        <Route path="/projects" element={<Jsprojects />}/>      
+        <Route path="/contact" element={<Contact />}/>
+        <Route path="*" element={<PageNotFound />}/>
       </Routes>
     </div>
   );

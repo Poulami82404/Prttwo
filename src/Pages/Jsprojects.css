@@ -1,23 +1,67 @@
+/* 
 .jsprojects {
   height: 100vh;
   padding: 15vh 0px;
-  overflow-y: scroll;
+  overflow-y: auto;
+  position: relative;
+  background-image: url("../assets/img/prj.jpeg");
+  background-size: cover;
+  background-position: left top; 
 }
+
 .jsprojects iframe {
   margin-bottom: 7px;
 }
+
 .jsprojects a.github {
   margin-bottom: 35px;
 }
+
 .jsprojects a.github img {
   width: 20px;
   margin-top: -5px;
   transition: 0.2s ease-in;
   margin-bottom: 0px;
 }
+
 .jsprojects .btn:hover img {
   filter: brightness(0) invert(1);
 }
+
+.jsprojects .js img {
+  width: 100%;
+  margin-bottom: 20px;
+} */
+.jsprojects {
+  height: 100vh;
+  padding: 15vh 0px;
+  overflow-y: auto; /* Changed to auto for scrollable content */
+  position: relative; /* Added position relative */
+  background-image: url("../assets/img/prjo.jpg"); /* Set the background image */
+  background-size: auto 100%; /* Adjusted background-size */
+  background-position: right  top; /* Adjusted to cover the entire left side */
+  background-repeat: no-repeat;
+}
+
+.jsprojects iframe {
+  margin-bottom: 7px;
+}
+
+.jsprojects a.github {
+  margin-bottom: 35px;
+}
+
+.jsprojects a.github img {
+  width: 50%;
+  margin-top: -5px;
+  transition: 0.2s ease-in;
+  margin-bottom: 0px;
+}
+
+.jsprojects .btn:hover img {
+  filter: brightness(0) invert(1);
+}
+
 .jsprojects .js img {
   width: 100%;
   margin-bottom: 20px;

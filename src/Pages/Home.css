@@ -3,9 +3,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("../assets/img/bg_one.jpeg"); /* Replace with the path to your background image */
+  background-size: cover; 
+  background-position:right;
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 35%;
+
+  
 }
 #home .rightcontent {
   padding: 40% 0px;
+
+}
+#home p {
+ font-size: 8px;
+  
 }
 #home .imgsec {
   position: relative;

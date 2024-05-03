@@ -3,28 +3,48 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000;
-  color: #fff;
+  background-image: url("../assets/img/cntcts.avif"); /* Set the background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: black;
   text-align: center;
 }
+
+.contact-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Adjusted width to cover the entire width of the container */
+  height: 20%; /* Adjusted height to 20% */
+  background-image: url("../assets/img/cntcts.avif"); /* Specify the correct image path */
+  background-size: cover;
+  background-position: top center; /* Set background position to top center */
+  z-index: -1;
+}
+
 .form-control {
-  background-color: rgb(18, 18, 18) !important;
+  background-color:black !important;
   border: none !important;
   border-radius: 0px !important;
   margin-bottom: 15px;
   border-bottom: 1px solid rgb(23, 23, 23) !important;
-  color: #fff !important;
+  color: black !important;
 }
+
 .form-control:focus {
   box-shadow: none !important;
   border-color: rgba(255, 255, 255, 0.2) !important;
 }
+
 #contact .btn {
-  background-color: #fff !important;
+  background-color:black !important;
 }
+
 #contact .btn:hover {
-  background-color: #000 !important;
-  color: #fff !important;
+  background-color: black !important;
+  color: white !important;
   border-color: #fff !important;
 }
 
